@@ -1,3 +1,5 @@
+
+
 body
 {
 	background: #000000;
@@ -410,3 +412,29 @@ footer hr
         color: #D43F52;
     }
 /* end social icon */
+
+#portff {
+    visibility: visible;
+    animation-delay: 0.9s;
+    animation-name: fadeIn;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    display: block;
+    text-align: center;
+    color: #999;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    -webkit-text-size-adjust: 100%;
+    background-color: transparent;
+    transition: 1s;
+}
+#portff:hover {
+    background-color: #D43F52;
+    color: white;
+}
